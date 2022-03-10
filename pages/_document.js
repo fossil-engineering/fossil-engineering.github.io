@@ -1,32 +1,44 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
-  }
-
   render() {
-    const meta = {
-      title: 'Fossil Engineering Blog',
-      description: 'Fossil Engineering Vietnam Blog',
-      image: ''
-    }
-
     return (
       <Html lang="en">
         <Head>
-          <meta name="robots" content="follow, index" />
-          <meta name="description" content={meta.description} />
-          <meta property="og:site_name" content={meta.title} />
-          <meta property="og:description" content={meta.description} />
-          <meta property="og:title" content={meta.title} />
-          <meta property="og:image" content={meta.image} />
-          <meta name="twitter:title" content={meta.title} />
-          <meta name="twitter:description" content={meta.description} />
-          <meta name="twitter:image" content={meta.image} />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/static/favicons/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/static/favicons/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/static/favicons/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/static/favicons/site.webmanifest" />
+          <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#2b5797" />
+          <meta name="theme-color" content="#ffffff" />
+          <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css"
+            integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc"
+            crossOrigin="anonymous"
+          />
         </Head>
-        <body>
+        <body className="antialiased text-black bg-white dark:bg-gray-900 dark:text-white">
           <Main />
           <NextScript />
         </body>

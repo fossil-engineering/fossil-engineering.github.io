@@ -1,45 +1,22 @@
-import 'nextra-theme-blog/style.css'
+import '@/css/tailwind.css'
+import '@/css/prism.css'
+
+import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
-import Script from 'next/script'
 
-import '../styles/main.css'
+import Analytics from '@/components/analytics'
+import LayoutWrapper from '@/components/LayoutWrapper'
 
-export default function Nextra({ Component, pageProps }) {
+export default function App({ Component, pageProps }) {
   return (
-    <>
+    <ThemeProvider attribute="class">
       <Head>
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="RSS"
-          href="/feed.xml"
-        />
-        <link
-          rel="preload"
-          href="/fonts/Inter-roman.latin.var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-FP7VNJ2D7M"
-      />
-      <Script
-        id="google-analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'G-FP7VNJ2D7M');
-            `
-        }}
-      />
-      <Component {...pageProps} />
-    </>
+      <Analytics />
+      <LayoutWrapper>
+        <Component {...pageProps} />
+      </LayoutWrapper>
+    </ThemeProvider>
   )
 }

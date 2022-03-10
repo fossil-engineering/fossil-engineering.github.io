@@ -11,15 +11,21 @@
 # next.js
 /.next/
 /out/
+public/sitemap.xml
+.vercel
 
 # production
 /build
+*.xml
+
+# rss feed
+/public/feed.xml 
 
 # misc
 .DS_Store
-*.pem
 
 # debug
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -30,9 +36,15 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# vercel
-.vercel
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.my.cnf
+/r-code
 
-public/feed.xml
+# personal
+*.psd
 
 out
