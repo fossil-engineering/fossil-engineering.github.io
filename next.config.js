@@ -66,6 +66,14 @@ module.exports = withBundleAnalyzer({
       },
     ]
   },
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://fossil-engineering-subscribe.duyet.workers.dev/:path*',
+      },
+    ]
+  },
   images: {
     domains: ['avatars.githubusercontent.com', 'media-exp1.licdn.com'],
     loader: 'custom',
