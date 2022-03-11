@@ -1,3 +1,10 @@
+const withPlugins = require('next-compose-plugins')
+const optimizedImages = require('next-optimized-images')
+
+const getLocalPackages = require('./scripts/getLocalPackages')
+const localPackages = getLocalPackages.getLocalPackages()
+const withTM = require('next-transpile-modules')(localPackages)
+
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
@@ -52,7 +59,7 @@ const securityHeaders = [
   },
 ]
 
-module.exports = withBundleAnalyzer({
+const config = withBundleAnalyzer({
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
@@ -76,7 +83,9 @@ module.exports = withBundleAnalyzer({
   },
   images: {
     domains: ['avatars.githubusercontent.com', 'media-exp1.licdn.com'],
-    loader: 'custom',
+    disableStaticImages: true,
+    loader: 'akamai',
+    path: '/',
   },
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {}
@@ -113,3 +122,5 @@ module.exports = withBundleAnalyzer({
     return config
   },
 })
+
+module.exports = withPlugins([[withTM()], [optimizedImages, { optimizeImages: false }], config])
