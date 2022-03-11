@@ -22,7 +22,8 @@ const siteMetadata = {
   },
   newsletter: {
     // Please add your .env file and modify it according to your selection
-    provider: 'emailOctopus',
+    // Default: /api/emailOctopus
+    provider: 'https://fossil-engineering-subscribe.duyet.workers.dev',
   },
   comment: {
     provider: 'giscus', // supported providers: giscus, utterances, disqus
