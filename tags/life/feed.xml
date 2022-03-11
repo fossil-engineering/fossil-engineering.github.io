@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Fossil Engineering</title>
+      <link>https://fossil-engineering.github.io/blog</link>
+      <description>Let the code speak</description>
+      <language>en-us</language>
+      <managingEditor>people@fossil.com ()</managingEditor>
+      <webMaster>people@fossil.com ()</webMaster>
+      <lastBuildDate>Thu, 27 Feb 2020 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fossil-engineering.github.io/tags/life/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/1234</guid>
+    <title>1,234 days — Day 1 at Fossil</title>
+    <link>https://fossil-engineering.github.io/blog/1234</link>
+    <description>A thousand-ish more days later, I could definitely testify to the jaded Day 1 philosophy by Amazon CEO Jeff Bezos: Every day here has felt just like Day 1.</description>
+    <pubDate>Thu, 27 Feb 2020 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>life</category>
+  </item>
+
+    </channel>
+  </rss>

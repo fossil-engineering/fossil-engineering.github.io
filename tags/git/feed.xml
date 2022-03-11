@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Fossil Engineering</title>
+      <link>https://fossil-engineering.github.io/blog</link>
+      <description>Let the code speak</description>
+      <language>en-us</language>
+      <managingEditor>people@fossil.com ()</managingEditor>
+      <webMaster>people@fossil.com ()</webMaster>
+      <lastBuildDate>Sat, 09 Mar 2019 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fossil-engineering.github.io/tags/git/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/git-hook-auto-prefix</guid>
+    <title>Automatically prefix commit message with Git hook</title>
+    <link>https://fossil-engineering.github.io/blog/git-hook-auto-prefix</link>
+    <description>In order to find all the commits relating to a specific JIRA issue as well as find the issue relating to a specific commit quickly, my team applies a common pattern for all commit message in our projects: `[ISSUE] MESSAGE`</description>
+    <pubDate>Sat, 09 Mar 2019 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>engineering</category><category>git</category>
+  </item>
+
+    </channel>
+  </rss>

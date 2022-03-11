@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Fossil Engineering</title>
+      <link>https://fossil-engineering.github.io/blog</link>
+      <description>Let the code speak</description>
+      <language>en-us</language>
+      <managingEditor>people@fossil.com ()</managingEditor>
+      <webMaster>people@fossil.com ()</webMaster>
+      <lastBuildDate>Thu, 10 Mar 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fossil-engineering.github.io/tags/data/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/spark-on-kubernetes-at-fossil</guid>
+    <title>Spark on Kubernetes tại Fossil</title>
+    <link>https://fossil-engineering.github.io/blog/spark-on-kubernetes-at-fossil</link>
+    <description>Apache Spark được chọn làm công nghệ cho Batch layer bởi khả năng xử lý một lượng lớn data cùng một lúc. Ở thiết kế ban đầu, team data chọn sử dụng Apache Spark trên AWS EMR do có sẵn và triển khai nhanh chóng. Dần dần, AWS EMR bộc lộ một số điểm hạn chế trên môi trường Production. Trong bài viết này, mình sẽ nói về tại sao và làm thế nào team Data chuyển từ Spark trên AWS EMR sang Kubernetes.</description>
+    <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>engineering</category><category>data</category>
+  </item>
+
+    </channel>
+  </rss>

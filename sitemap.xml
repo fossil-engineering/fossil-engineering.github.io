@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://fossil-engineering.github.io/about</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/blog/git-hook-auto-prefix</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/blog/docker-size</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/blog/1234</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/blog/spark-on-kubernetes-at-fossil</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags/data</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags/engineering</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags/git</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags/life</loc>
+  </url>
+</urlset>
