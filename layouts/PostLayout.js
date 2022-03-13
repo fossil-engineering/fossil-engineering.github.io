@@ -14,40 +14,28 @@ const discussUrl = (slug) =>
   )}`
 
 const SocialLink = (author) => {
+  let href = ''
+  let text = ''
+
   if (author.github) {
-    return (
-      <Link
-        href={author.github}
-        className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-      >
-        {author.github.replace('https://github.com/', '@')}
-      </Link>
-    )
+    href = author.github
+    text = author.github.replace('https://github.com/', '@')
+  } else if (author.twitter) {
+    href = author.twitter
+    text = author.twitter.replace('https://twitter.com/', '@')
+  } else if (author.linkedin) {
+    href = author.linkedin
+    text = author.linkedin.replace('https://linkedin.com/', '')
   }
 
-  if (author.linkedin) {
-    return (
-      <Link
-        href={author.linkedin}
-        className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-      >
-        {author.linkedin.replace('https://linkedin.com/', '')}
-      </Link>
-    )
-  }
-
-  if (author.twitter) {
-    return (
-      <Link
-        href={author.twitter}
-        className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-      >
-        {author.twitter.replace('https://twitter.com/', '@')}
-      </Link>
-    )
-  }
-
-  return <></>
+  return (
+    <Link
+      href={href}
+      className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+    >
+      {text}
+    </Link>
+  )
 }
 
 const postDateTemplate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }

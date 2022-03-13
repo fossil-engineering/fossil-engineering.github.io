@@ -32,7 +32,7 @@ Dần dần, AWS EMR bộc lộ một số điểm hạn chế trên môi trư�
 Trong bài viết này, mình sẽ nói về tại sao và làm thế nào team
 Data chuyển từ Spark trên AWS EMR sang Kubernetes.
 
-<div class="toc">
+<div className="toc">
   <p>Trong bài này:</p>
   <ul>
     <li><a href="#1-apache-spark-trên-aws-emr">1. Apache Spark trên AWS EMR</a></li>
@@ -259,11 +259,11 @@ Như vậy là mọi người đã có thể hình dung được cách mà team 
 
 Do có nhiều chi tiết, nhiều vấn đề kỹ thuật, cách cài đặt, cách tối ưu, … mà mình khó có thể đề cập hết được, do đó bài viết chỉ dừng lại ở tính chất giới thiệu tổng quát. Mình sẽ cố gắng chi tiết hóa các vấn đề ở các bài viết khác nếu có thể trong tương lai.
 
-<div class="bg-emerald-600 p-5">
+<div className="bg-emerald-600 p-5">
   Bài viết cũng được đăng tại 
   <a href="https://blog.duyet.net/2022/03/spark-kubernetes-at-fossil">duyet.net</a>.
 </div>
-<div class="bg-blue-100 border-t border-b border-blue-500">
+<div className="bg-blue-100 border-t border-b border-blue-500">
   Hiện tại Fossil Cloud Data đang open cho các vị trí (Sr) Data Engineer, 
   <a href="https://sites.google.com/fossil.com/fossil-vietnam/careers/jobs" target="_blank">xem thêm JD tại đây</a> 
   hoặc gửi CV của bạn về email <strong>lvduyet (at) fossil.com</strong> để cùng trao đổi thêm nhé. 

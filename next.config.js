@@ -85,7 +85,7 @@ const config = withBundleAnalyzer({
     domains: ['avatars.githubusercontent.com', 'media-exp1.licdn.com'],
     disableStaticImages: true,
     loader: 'akamai',
-    path: '/',
+    path: '',
   },
   exportPathMap: async function (defaultPathMap, { dev, dir, outDir, distDir, buildId }) {
     return {}
