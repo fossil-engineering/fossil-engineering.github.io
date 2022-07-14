@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Fossil Engineering</title>
+      <link>https://fossil-engineering.github.io/blog</link>
+      <description>Let the code speak</description>
+      <language>en-us</language>
+      <managingEditor>people@fossil.com ()</managingEditor>
+      <webMaster>people@fossil.com ()</webMaster>
+      <lastBuildDate>Mon, 11 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://fossil-engineering.github.io/tags/management/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/working-from-home</guid>
+    <title>Working From Home</title>
+    <link>https://fossil-engineering.github.io/blog/working-from-home</link>
+    <description>Working From Home hiện đang là working style trending, nhưng liệu có hiệu quả?</description>
+    <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>management</category>
+  </item>
+
+    </channel>
+  </rss>

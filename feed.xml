@@ -7,9 +7,29 @@
       <language>en-us</language>
       <managingEditor>people@fossil.com ()</managingEditor>
       <webMaster>people@fossil.com ()</webMaster>
-      <lastBuildDate>Thu, 10 Mar 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 12 Jul 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://fossil-engineering.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/apache-spark-behind-the-scienes</guid>
+    <title>Apache Spark behind the scenes</title>
+    <link>https://fossil-engineering.github.io/blog/apache-spark-behind-the-scienes</link>
+    <description>Các bạn có thắc mắc sau khi submit 1 job cho Spark Cluster thì Spark sẽ làm những gì không? Cùng tìm hiểu với mình nhé.</description>
+    <pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>engineering</category><category>data</category>
+  </item>
+
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/working-from-home</guid>
+    <title>Working From Home</title>
+    <link>https://fossil-engineering.github.io/blog/working-from-home</link>
+    <description>Working From Home hiện đang là working style trending, nhưng liệu có hiệu quả?</description>
+    <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>management</category>
+  </item>
+
   <item>
     <guid>https://fossil-engineering.github.io/blog/spark-on-kubernetes-at-fossil</guid>
     <title>Spark on Kubernetes tại Fossil</title>
