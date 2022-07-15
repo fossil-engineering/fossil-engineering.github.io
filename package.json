@@ -65,7 +65,7 @@
     "inquirer": "8.2.4",
     "lint-staged": "11.2.6",
     "next-remote-watch": "1.0.0",
-    "prettier": "2.2.1"
+    "prettier": "2.7.1"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
