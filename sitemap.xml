@@ -45,6 +45,10 @@
   </url>
 
   <url>
+    <loc>https://fossil-engineering.github.io/tags/engineering</loc>
+  </url>
+
+  <url>
     <loc>https://fossil-engineering.github.io/tags/data</loc>
   </url>
 
@@ -53,14 +57,10 @@
   </url>
 
   <url>
-    <loc>https://fossil-engineering.github.io/tags/engineering</loc>
+    <loc>https://fossil-engineering.github.io/tags/management</loc>
   </url>
 
   <url>
     <loc>https://fossil-engineering.github.io/tags/life</loc>
-  </url>
-
-  <url>
-    <loc>https://fossil-engineering.github.io/tags/management</loc>
   </url>
 </urlset>
