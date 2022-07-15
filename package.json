@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "12.0.7",
-    "@svgr/webpack": "^6.1.2",
+    "@svgr/webpack": "6.2.1",
     "cross-env": "^7.0.3",
     "dedent": "^0.7.0",
     "eslint": "^7.29.0",
