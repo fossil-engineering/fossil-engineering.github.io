@@ -49,18 +49,18 @@
   </url>
 
   <url>
-    <loc>https://fossil-engineering.github.io/tags/engineering</loc>
-  </url>
-
-  <url>
     <loc>https://fossil-engineering.github.io/tags/git</loc>
   </url>
 
   <url>
-    <loc>https://fossil-engineering.github.io/tags/management</loc>
+    <loc>https://fossil-engineering.github.io/tags/engineering</loc>
   </url>
 
   <url>
     <loc>https://fossil-engineering.github.io/tags/life</loc>
+  </url>
+
+  <url>
+    <loc>https://fossil-engineering.github.io/tags/management</loc>
   </url>
 </urlset>
