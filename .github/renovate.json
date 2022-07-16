@@ -6,5 +6,6 @@
   "automerge": true,
   "assignAutomerge": true,
   "assignees": ["duyetbot"],
-  "automergeType": "pr-comment"
+  "automergeType": "pr-comment",
+  "automergeComment": "@duyetbot review"
 }
