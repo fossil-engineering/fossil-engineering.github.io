@@ -6460,10 +6460,10 @@ next-remote-watch@1.0.0:
     commander "^5.0.0"
     express "^4.17.1"
 
-next-themes@0.0.14:
-  version "0.0.14"
-  resolved "https://registry.npmjs.org/next-themes/-/next-themes-0.0.14.tgz"
-  integrity sha512-x09OaM+wg3SIlEjOv8B21aw/E36jxTtfW3Dm/DPwMsSMluGt7twe1LigA6nc+mXP1u0qu9MxBaIrPPH6UTiKnA==
+next-themes@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/next-themes/-/next-themes-0.2.0.tgz"
+  integrity sha512-myhpDL4vadBD9YDSHiewqvzorGzB03N84e+3LxCwHRlM/hiBOaW+UsKsQojQAzC7fdcJA0l2ppveXcYaVV+hxQ==
 
 next-transpile-modules@9.0.0:
   version "9.0.0"
