@@ -4492,22 +4492,6 @@ hast-util-to-estree@^2.0.0:
     unist-util-position "^4.0.0"
     zwitch "^2.0.0"
 
-hast-util-to-html@^8.0.1:
-  version "8.0.2"
-  resolved "https://registry.npmjs.org/hast-util-to-html/-/hast-util-to-html-8.0.2.tgz"
-  integrity sha512-ipLhUTMyyJi9F/LXaNDG9BrRdshP6obCfmUZYbE/+T639IdzqAOkKN4DyrEyID0gbb+rsC3PKf0XlviZwzomhw==
-  dependencies:
-    "@types/hast" "^2.0.0"
-    ccount "^2.0.0"
-    comma-separated-tokens "^2.0.0"
-    hast-util-is-element "^2.0.0"
-    hast-util-whitespace "^2.0.0"
-    html-void-elements "^2.0.0"
-    property-information "^6.0.0"
-    space-separated-tokens "^2.0.0"
-    stringify-entities "^4.0.0"
-    unist-util-is "^5.0.0"
-
 hast-util-to-string@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/hast-util-to-string/-/hast-util-to-string-2.0.0.tgz"
@@ -4544,11 +4528,6 @@ hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz"
   integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
-
-html-void-elements@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/html-void-elements/-/html-void-elements-2.0.0.tgz"
-  integrity sha512-4OYzQQsBt0G9bJ/nM9/DDsjm4+fVdzAaPJJcWk5QwA3GIAPxQEeOR0rsI8HbDHQz5Gta8pVvGnnTNSbZVEVvkQ==
 
 http-cache-semantics@3.8.1:
   version "3.8.1"
@@ -7188,11 +7167,6 @@ prettier@2.7.1:
   resolved "https://registry.npmjs.org/prettier/-/prettier-2.7.1.tgz"
   integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
 
-prismjs@~1.25.0:
-  version "1.25.0"
-  resolved "https://registry.npmjs.org/prismjs/-/prismjs-1.25.0.tgz"
-  integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
-
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz"
@@ -7393,16 +7367,15 @@ redent@^1.0.0:
     indent-string "^2.1.0"
     strip-indent "^1.0.1"
 
-refractor@^4.2.1:
-  version "4.3.0"
-  resolved "https://registry.npmjs.org/refractor/-/refractor-4.3.0.tgz"
-  integrity sha512-avSi9ItM6ewXJJIid5KzAgGi7AWpGatAKvQYqLFqZYZsc9klJ7IZVBZv1ocbgZANnZQOVAX46geNd3XQZxWyuw==
+refractor@^4.7.0:
+  version "4.7.0"
+  resolved "https://registry.npmjs.org/refractor/-/refractor-4.7.0.tgz"
+  integrity sha512-X3JUDE7nq1csWs7Etg5v7hW10RzF4lYesEn/KDbllocj0itZrs3paO2ZEgYUXrlgXzY3IN+eDRByyIvzcfF9Tg==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/prismjs" "^1.0.0"
     hastscript "^7.0.0"
     parse-entities "^4.0.0"
-    prismjs "~1.25.0"
 
 regenerate-unicode-properties@^9.0.0:
   version "9.0.0"
@@ -7522,17 +7495,15 @@ rehype-parse@^8.0.0, rehype-parse@^8.0.2:
     parse5 "^6.0.0"
     unified "^10.0.0"
 
-rehype-prism-plus@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/rehype-prism-plus/-/rehype-prism-plus-1.1.3.tgz"
-  integrity sha512-ADk7Wr5HJO0igRfwYOzBi2AYu8Wd9YRsDOxp/fRtZXjelujr8PHjEkYNmH9TEKTJp2U72vU4tKaOn/49MuhDUw==
+rehype-prism-plus@1.4.2:
+  version "1.4.2"
+  resolved "https://registry.npmjs.org/rehype-prism-plus/-/rehype-prism-plus-1.4.2.tgz"
+  integrity sha512-RQNQJIRiejJ6lUh8nm04jEoR0bSsWl2i4R0MXpJtvlRzwTU1D7qdHGT0veCIvuhXPRP4G7Obo4VGwOVAfOtXZw==
   dependencies:
-    hast-util-to-html "^8.0.1"
     hast-util-to-string "^2.0.0"
     parse-numeric-range "^1.3.0"
-    refractor "^4.2.1"
+    refractor "^4.7.0"
     rehype-parse "^8.0.2"
-    unified "^10.1.0"
     unist-util-filter "^4.0.0"
     unist-util-visit "^4.0.0"
 
