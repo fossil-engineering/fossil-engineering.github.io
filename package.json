@@ -59,7 +59,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "file-loader": "6.2.0",
-    "globby": "13.1.2",
+    "globby": "11.1.0",
     "husky": "8.0.1",
     "imagemin-optipng": "8.0.0",
     "inquirer": "8.2.4",
