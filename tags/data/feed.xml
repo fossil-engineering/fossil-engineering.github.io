@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>people@fossil.com ()</managingEditor>
       <webMaster>people@fossil.com ()</webMaster>
-      <lastBuildDate>Tue, 12 Jul 2022 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 29 Jul 2022 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://fossil-engineering.github.io/tags/data/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://fossil-engineering.github.io/blog/tuning-es-storage</guid>
+    <title>Tuning ElasticSearch storage</title>
+    <link>https://fossil-engineering.github.io/blog/tuning-es-storage</link>
+    <description>Việc tối ưu bộ nhớ cho Database rất quan trọng đối với 1 Data Engineer, sau đây mình sẽ chia sẻ những cách mà Fossil đã sử dụng để tối ưu bộ nhớ cho ElasticSearch</description>
+    <pubDate>Fri, 29 Jul 2022 00:00:00 GMT</pubDate>
+    <author>people@fossil.com ()</author>
+    <category>engineering</category><category>data</category>
+  </item>
+
   <item>
     <guid>https://fossil-engineering.github.io/blog/apache-spark-behind-the-scienes</guid>
     <title>Apache Spark behind the scenes</title>
