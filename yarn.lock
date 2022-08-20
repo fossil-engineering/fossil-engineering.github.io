@@ -7012,10 +7012,10 @@ postcss@8.4.16, postcss@^8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-preact@10.10.5:
-  version "10.10.5"
-  resolved "https://registry.npmjs.org/preact/-/preact-10.10.5.tgz"
-  integrity sha512-h+49j4BG5TebVpRyrW/vlVzErwEnuPaZ0WGnSE4j2KLcZa8IYjCe8nDcsnLhmjcK/IRjmNt4y1Pgkurc3v46ZQ==
+preact@10.10.6:
+  version "10.10.6"
+  resolved "https://registry.npmjs.org/preact/-/preact-10.10.6.tgz"
+  integrity sha512-w0mCL5vICUAZrh1DuHEdOWBjxdO62lvcO++jbzr8UhhYcTbFkpegLH9XX+7MadjTl/y0feoqwQ/zAnzkc/EGog==
 
 prebuild-install@^7.1.1:
   version "7.1.1"
